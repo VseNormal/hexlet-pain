@@ -8,6 +8,7 @@
         "nyholm/psr7": "^1.5",
         "nyholm/psr7-server": "^1.0",
         "guzzlehttp/psr7": "^2.4",
-        "laminas/laminas-diactoros": "^2.11"
+        "laminas/laminas-diactoros": "^2.11",
+        "slim/php-view": "^3.1"
     }
 }

@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '3051ae65e98cfa8d28497712b4b123ba2830988c',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '3051ae65e98cfa8d28497712b4b123ba2830988c',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -181,6 +181,15 @@
             'reference' => '3bc9d61b5243cab0d75c89d778bd69464de07354',
             'type' => 'library',
             'install_path' => __DIR__ . '/../slim/http',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'slim/php-view' => array(
+            'pretty_version' => '3.1.0',
+            'version' => '3.1.0.0',
+            'reference' => 'c9ec5e4027d113af35816098f9059ef5c3e3000c',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../slim/php-view',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
